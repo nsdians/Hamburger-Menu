@@ -43,9 +43,19 @@ nav {
 }
 
 nav a {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 16px;
   color: #492118;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px red solid;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 nav a + a {
